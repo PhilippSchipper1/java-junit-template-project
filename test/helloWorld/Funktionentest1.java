@@ -11,15 +11,20 @@ public class Funktionentest1 {
 	@Test
 	public void add() {
 		{
-			final int expected =10;
+			final int exspected =10;
 			
 			final int actual = Funktionen.add(5, 5);
 			
-			assertEquals(expected, actual);
+			assertEquals(exspected, actual);
 		}
 		fail("Not yet implemented");
 	}
-
+	@Test
+	public void multiply() {
+		final int exspected = 10;
+		final int actual = Funktionen.multiply(2, 5);
+		assertEquals(exspected, actual);
+	}
 }
 
 
