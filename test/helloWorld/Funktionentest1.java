@@ -25,6 +25,13 @@ public class Funktionentest1 {
 		final int actual = Funktionen.multiply(2, 5);
 		assertEquals(exspected, actual);
 	}
+	
+	@Test
+	public void divide() {
+		final double exspected = 10;
+		final double actual = Funktionen.divide(100, 10);
+		assertEquals(exspected, actual);
+	}
 }
 
 
